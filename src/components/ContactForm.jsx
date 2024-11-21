@@ -459,15 +459,15 @@ const ContactForm = () => {
 						onBlur={handleBlur}
 						className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-ymf-primary focus:border-transparent transition"
 					>
-						<option value="">{t("form.interest_options_default")}</option>
-						<option value="fondi">{t("form.interest_options_funds")}</option>
+						<option value="">{t("form.interest_options.default")}</option>
+						<option value="fondi">{t("form.interest_options.funds")}</option>
 						<option value="formazione">
-							{t("form.interest_options_training")}
+							{t("form.interest_options.training")}
 						</option>
 						<option value="consulenza">
-							{t("form.interest_options_consulting")}
+							{t("form.interest_options.consulting")}
 						</option>
-						<option value="altro">{t("form.interest_options_other")}</option>
+						<option value="altro">{t("form.interest_options.other")}</option>
 					</select>
 				</div>
 
