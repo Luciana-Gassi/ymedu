@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/ymedu/static/css/main.e6c13ad2.css",
-    "main.js": "/ymedu/static/js/main.696cc6fb.js",
-    "static/js/453.67c02e68.chunk.js": "/ymedu/static/js/453.67c02e68.chunk.js",
+    "main.css": "/ymedu/static/css/main.c40c9e06.css",
+    "main.js": "/ymedu/static/js/main.02d30dec.js",
+    "static/media/proximanova_light.otf": "/ymedu/static/media/proximanova_light.9d69a5449e101ad71e3d.otf",
+    "static/media/Controller_Four.otf": "/ymedu/static/media/Controller_Four.676003fab0132b8d2dd1.otf",
+    "static/media/Orbitron-Bold.ttf": "/ymedu/static/media/Orbitron-Bold.a0309d1fe75d16b6f13a.ttf",
     "index.html": "/ymedu/index.html",
-    "main.e6c13ad2.css.map": "/ymedu/static/css/main.e6c13ad2.css.map",
-    "main.696cc6fb.js.map": "/ymedu/static/js/main.696cc6fb.js.map",
-    "453.67c02e68.chunk.js.map": "/ymedu/static/js/453.67c02e68.chunk.js.map"
+    "main.c40c9e06.css.map": "/ymedu/static/css/main.c40c9e06.css.map",
+    "main.02d30dec.js.map": "/ymedu/static/js/main.02d30dec.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.696cc6fb.js"
+    "static/css/main.c40c9e06.css",
+    "static/js/main.02d30dec.js"
   ]
 }
