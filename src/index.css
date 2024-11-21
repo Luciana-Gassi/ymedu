@@ -48,11 +48,11 @@ h3 {
 
 @layer components {
 	.btn-primary {
-		@apply bg-ym-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-ym-burgundy transition-colors duration-200;
+		@apply bg-ymf-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-ymf-secondary transition-colors duration-200;
 	}
 
 	.btn-secondary {
-		@apply bg-ym-burgundy text-white px-6 py-3 rounded-lg font-semibold hover:bg-ym-blue transition-colors duration-200;
+		@apply bg-ymf-secondary text-white px-6 py-3 rounded-lg font-semibold hover:bg-ymf-primary transition-colors duration-200;
 	}
 
 	.container-ym {
