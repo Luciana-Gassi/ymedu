@@ -1,10 +1,10 @@
 import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import YMForm from "./pages/YM-form";
+import YMForm from "./pages/YMForm";
 
 function App() {
 	return (
-		<HashRouter basename="/ymedu">
+		<HashRouter>
 			<Routes>
 				<Route path="/" element={<YMForm />} />
 			</Routes>
