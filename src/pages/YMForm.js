@@ -215,10 +215,12 @@ function YMForm() {
 
 				<div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent z-10" />
 			</section>
-			{/* Statistiche */}
+
+			{/* Statistiche e Perché Sceglierci Section */}
 			<section className="py-20 bg-white">
 				<div className="container mx-auto px-4">
-					<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+					{/* Stats Grid */}
+					<div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
 						<motion.div
 							className="text-center"
 							initial={{ opacity: 0, y: 20 }}
@@ -271,6 +273,103 @@ function YMForm() {
 							</div>
 							<div className="text-gray-600">{t("stats.experience.label")}</div>
 						</motion.div>
+					</div>
+
+					{/* Perché Sceglierci */}
+					<div className="max-w-6xl mx-auto">
+						<motion.div
+							className="text-center mb-12"
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+						>
+							<h2 className="text-3xl font-bold text-ymf-primary">
+								{t("why_choose_us.title")}
+							</h2>
+						</motion.div>
+
+						<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+							{t("why_choose_us.cards", { returnObjects: true }).map(
+								(card, index) => (
+									<motion.div
+										key={index}
+										className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:border-ymf-secondary/20 transition-all"
+										initial={{ opacity: 0, y: 20 }}
+										whileInView={{ opacity: 1, y: 0 }}
+										viewport={{ once: true }}
+										transition={{ delay: index * 0.1 }}
+									>
+										<div className="w-12 h-12 bg-ymf-secondary/10 rounded-full flex items-center justify-center mb-4">
+											{/* Icone condizionali basate sul tipo */}
+											{card.icon === "clock" && (
+												<svg
+													className="w-6 h-6 text-ymf-secondary"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke="currentColor"
+												>
+													<path
+														strokeLinecap="round"
+														strokeLinejoin="round"
+														strokeWidth={2}
+														d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+													/>
+												</svg>
+											)}
+											{card.icon === "check" && (
+												<svg
+													className="w-6 h-6 text-ymf-secondary"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke="currentColor"
+												>
+													<path
+														strokeLinecap="round"
+														strokeLinejoin="round"
+														strokeWidth={2}
+														d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+													/>
+												</svg>
+											)}
+											{card.icon === "network" && (
+												<svg
+													className="w-6 h-6 text-ymf-secondary"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke="currentColor"
+												>
+													<path
+														strokeLinecap="round"
+														strokeLinejoin="round"
+														strokeWidth={2}
+														d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+													/>
+												</svg>
+											)}
+											{card.icon === "support" && (
+												<svg
+													className="w-6 h-6 text-ymf-secondary"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke="currentColor"
+												>
+													<path
+														strokeLinecap="round"
+														strokeLinejoin="round"
+														strokeWidth={2}
+														d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
+													/>
+												</svg>
+											)}
+										</div>
+										<h3 className="text-xl font-bold text-ymf-primary mb-2">
+											{card.title}
+										</h3>
+										<p className="text-gray-600">{card.description}</p>
+									</motion.div>
+								)
+							)}
+						</div>
 					</div>
 				</div>
 			</section>
