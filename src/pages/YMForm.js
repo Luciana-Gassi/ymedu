@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const carouselImages = [
 	{
@@ -52,11 +53,20 @@ function YMForm() {
 				<div className="container-ym py-4">
 					<div className="flex items-center justify-between">
 						<div className="flex items-center">
-							<img
-								src="/images/logo-YMesh-rb.png"
-								alt="YM Formation"
-								className="h-16"
-							/>
+							<Link
+								to="#"
+								onClick={(e) => {
+									e.preventDefault();
+									const heroSection = document.getElementById("hero");
+									heroSection.scrollIntoView({ behavior: "smooth" });
+								}}
+							>
+								<img
+									src="/ymedu/images/logo-YMesh-rb.png"
+									alt="YM Formazione Logo"
+									className="h-16"
+								/>
+							</Link>
 						</div>
 
 						<nav className="hidden md:flex items-center space-x-8">
