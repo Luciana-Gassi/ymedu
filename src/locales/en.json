@@ -106,6 +106,8 @@
 		}
 	},
 	"form": {
+		"title": "Contact Us",
+		"description": "Fill out the form to request information or a free consultation",
 		"name": "Full Name",
 		"name_placeholder": "Enter your name",
 		"company": "Company",

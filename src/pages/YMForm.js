@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import ContactForm from "../components/ContactForm";
 
 const carouselImages = [
 	{
@@ -752,131 +753,7 @@ function YMForm() {
 						</div>
 
 						<div className="bg-white rounded-xl shadow-lg p-8">
-							<form className="space-y-6">
-								{/* Nome e Azienda */}
-								<div className="grid md:grid-cols-2 gap-6">
-									<div>
-										<label
-											htmlFor="name"
-											className="block text-gray-700 font-medium mb-2"
-										>
-											{t("form.name")} *
-										</label>
-										<input
-											type="text"
-											id="name"
-											className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ymf-secondary focus:border-transparent transition-colors"
-											placeholder={t("form.name_placeholder")}
-											required
-										/>
-									</div>
-									<div>
-										<label
-											htmlFor="company"
-											className="block text-gray-700 font-medium mb-2"
-										>
-											{t("form.company")}
-										</label>
-										<input
-											type="text"
-											id="company"
-											className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ymf-secondary focus:border-transparent transition-colors"
-											placeholder={t("form.company_placeholder")}
-										/>
-									</div>
-								</div>
-
-								{/* Email e Telefono */}
-								<div className="grid md:grid-cols-2 gap-6">
-									<div>
-										<label
-											htmlFor="email"
-											className="block text-gray-700 font-medium mb-2"
-										>
-											{t("form.email")} *
-										</label>
-										<input
-											type="email"
-											id="email"
-											className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ymf-secondary focus:border-transparent transition-colors"
-											placeholder={t("form.email_placeholder")}
-											required
-										/>
-									</div>
-									<div>
-										<label
-											htmlFor="phone"
-											className="block text-gray-700 font-medium mb-2"
-										>
-											{t("form.phone")}
-										</label>
-										<input
-											type="tel"
-											id="phone"
-											className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ymf-secondary focus:border-transparent transition-colors"
-											placeholder={t("form.phone_placeholder")}
-										/>
-									</div>
-								</div>
-
-								{/* Area di Interesse */}
-								<div>
-									<label
-										htmlFor="interest"
-										className="block text-gray-700 font-medium mb-2"
-									>
-										{t("form.interest")}
-									</label>
-									<select
-										id="interest"
-										className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ymf-secondary focus:border-transparent transition-colors"
-									>
-										<option value="">
-											{t("form.interest_options.default")}
-										</option>
-										<option value="funds">
-											{t("form.interest_options.funds")}
-										</option>
-										<option value="training">
-											{t("form.interest_options.training")}
-										</option>
-										<option value="consulting">
-											{t("form.interest_options.consulting")}
-										</option>
-										<option value="other">
-											{t("form.interest_options.other")}
-										</option>
-									</select>
-								</div>
-
-								{/* Messaggio */}
-								<div>
-									<label
-										htmlFor="message"
-										className="block text-gray-700 font-medium mb-2"
-									>
-										{t("form.message")} *
-									</label>
-									<textarea
-										id="message"
-										rows="4"
-										className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ymf-secondary focus:border-transparent transition-colors"
-										placeholder={t("form.message_placeholder")}
-										required
-									></textarea>
-								</div>
-
-								<div className="text-sm text-gray-500 mb-4">
-									* {t("form.required_fields")}
-								</div>
-
-								<button
-									type="submit"
-									className="w-full bg-ymf-secondary text-white py-3 px-6 rounded-full hover:bg-ymf-primary transition-colors"
-								>
-									{t("form.submit")}
-								</button>
-							</form>
+							<ContactForm />
 						</div>
 					</motion.div>
 				</div>

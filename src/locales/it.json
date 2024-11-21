@@ -131,6 +131,8 @@
 		"secondary_button": "Scarica la Brochure"
 	},
 	"form": {
+		"title": "Contattaci",
+		"description": "Compila il form per richiedere informazioni o una consulenza gratuita",
 		"name": "Nome e Cognome",
 		"name_placeholder": "Inserisci il tuo nome",
 		"company": "Azienda",
