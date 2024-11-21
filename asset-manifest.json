@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ymedu/static/css/main.e6c13ad2.css",
+    "main.js": "/ymedu/static/js/main.696cc6fb.js",
+    "static/js/453.67c02e68.chunk.js": "/ymedu/static/js/453.67c02e68.chunk.js",
+    "index.html": "/ymedu/index.html",
+    "main.e6c13ad2.css.map": "/ymedu/static/css/main.e6c13ad2.css.map",
+    "main.696cc6fb.js.map": "/ymedu/static/js/main.696cc6fb.js.map",
+    "453.67c02e68.chunk.js.map": "/ymedu/static/js/453.67c02e68.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.696cc6fb.js"
+  ]
+}
