@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ymedu/static/css/main.c40c9e06.css",
-    "main.js": "/ymedu/static/js/main.6400208a.js",
+    "main.css": "/ymedu/static/css/main.5dd52089.css",
+    "main.js": "/ymedu/static/js/main.f1c8c505.js",
     "static/media/proximanova_light.otf": "/ymedu/static/media/proximanova_light.9d69a5449e101ad71e3d.otf",
     "static/media/Controller_Four.otf": "/ymedu/static/media/Controller_Four.676003fab0132b8d2dd1.otf",
     "static/media/Orbitron-Bold.ttf": "/ymedu/static/media/Orbitron-Bold.a0309d1fe75d16b6f13a.ttf",
     "index.html": "/ymedu/index.html",
-    "main.c40c9e06.css.map": "/ymedu/static/css/main.c40c9e06.css.map",
-    "main.6400208a.js.map": "/ymedu/static/js/main.6400208a.js.map"
+    "main.5dd52089.css.map": "/ymedu/static/css/main.5dd52089.css.map",
+    "main.f1c8c505.js.map": "/ymedu/static/js/main.f1c8c505.js.map"
   },
   "entrypoints": [
-    "static/css/main.c40c9e06.css",
-    "static/js/main.6400208a.js"
+    "static/css/main.5dd52089.css",
+    "static/js/main.f1c8c505.js"
   ]
 }
