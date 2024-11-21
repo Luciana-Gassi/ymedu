@@ -36,7 +36,7 @@ function YMForm() {
 			setCurrentImageIndex((prevIndex) =>
 				prevIndex === carouselImages.length - 1 ? 0 : prevIndex + 1
 			);
-		}, 2500);
+		}, 4500);
 
 		return () => clearInterval(timer);
 	}, []);
@@ -107,7 +107,7 @@ function YMForm() {
 										}`}
 								>
 									<img
-										src="/images/it-flag.png"
+										src="/ymedu/images/it-flag.png"
 										alt="Italiano"
 										className={`w-5 h-5 transition-opacity duration-200 
                       ${
@@ -129,7 +129,7 @@ function YMForm() {
 										}`}
 								>
 									<img
-										src="/images/en-flag.png"
+										src="/ymedu/images/en-flag.png"
 										alt="English"
 										className={`w-5 h-5 transition-opacity duration-200
                       ${
