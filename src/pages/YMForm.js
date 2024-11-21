@@ -35,7 +35,7 @@ function YMForm() {
 			setCurrentImageIndex((prevIndex) =>
 				prevIndex === carouselImages.length - 1 ? 0 : prevIndex + 1
 			);
-		}, 5000);
+		}, 2500);
 
 		return () => clearInterval(timer);
 	}, []);
