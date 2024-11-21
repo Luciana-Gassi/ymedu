@@ -36,7 +36,7 @@ function YMForm() {
 			setCurrentImageIndex((prevIndex) =>
 				prevIndex === carouselImages.length - 1 ? 0 : prevIndex + 1
 			);
-		}, 4500);
+		}, 4800);
 
 		return () => clearInterval(timer);
 	}, []);
@@ -544,7 +544,7 @@ function YMForm() {
 								viewport={{ once: true }}
 							/>
 							<motion.img
-								src="/images/team-meeting.jpg"
+								src="/ymedu/images/team-meeting.jpg"
 								alt="Team al lavoro"
 								className="rounded-lg shadow-xl relative z-10 w-full h-full object-cover"
 								initial={{ opacity: 0, scale: 0.95 }}
@@ -640,7 +640,7 @@ function YMForm() {
 					<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 						<div>
 							<img
-								src="/images/logo-white.png"
+								src="/ymedu/images/ym-logoWH.svg"
 								alt="YM Formation"
 								className="h-12 mb-4"
 							/>
