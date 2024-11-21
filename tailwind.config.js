@@ -7,6 +7,7 @@ module.exports = {
 				controllerfour: ["ControllerFour", "sans-serif"],
 				orbitron: ["Orbitron", "sans-serif"],
 				proximanova: ["Proxima Nova", "sans-serif"],
+				exo: ['"Exo 2"', "sans-serif"],
 			},
 			colors: {
 				"ymf-primary": "#1B365D",

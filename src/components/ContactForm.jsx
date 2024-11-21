@@ -449,7 +449,7 @@ const ContactForm = () => {
 						htmlFor="event"
 						className="block text-sm font-medium text-gray-700 mb-2"
 					>
-						{t("form.event")}
+						{t("form.interest")}
 					</label>
 					<select
 						id="interest"
