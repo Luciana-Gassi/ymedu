@@ -1,0 +1,176 @@
+{
+	"header": {
+		"menu_services": "Services",
+		"menu_process": "How We Work",
+		"menu_advantages": "Benefits",
+		"menu_contact": "Contact",
+		"cta_consultation": "Request Consultation"
+	},
+	"hero": {
+		"title": "Transform Your Company's Potential",
+		"description": "Optimize access to professional training funds with an expert partner who manages every aspect: from funding selection to course delivery.",
+		"cta_primary": "Discover Our Services",
+		"cta_secondary": "Request a Demo"
+	},
+	"stats": {
+		"success_rate": {
+			"value": "90%",
+			"label": "Success Rate in Fund Acquisition"
+		},
+		"companies": {
+			"value": "500+",
+			"label": "Companies Supported"
+		},
+		"funds": {
+			"value": "€10M+",
+			"label": "Funds Obtained for Clients"
+		},
+		"experience": {
+			"value": "15+",
+			"label": "Years of Experience"
+		}
+	},
+	"process": {
+		"title": "How We Work",
+		"description": "A structured process to ensure maximum results in fund management and training delivery",
+		"steps": [
+			{
+				"title": "Initial Analysis",
+				"description": "Free evaluation of available funding opportunities"
+			},
+			{
+				"title": "Training Strategy",
+				"description": "Definition of personalized training plan"
+			},
+			{
+				"title": "Complete Management",
+				"description": "Coordination of all administrative and operational aspects"
+			},
+			{
+				"title": "Continuous Monitoring",
+				"description": "Results tracking and constant optimization"
+			}
+		]
+	},
+	"services": {
+		"title": "Our Services",
+		"description": "A comprehensive approach to corporate training, from fund management to training program implementation",
+		"fund_management": {
+			"title": "Fund Management",
+			"items": [
+				"Analysis of funding opportunities",
+				"Documentation preparation",
+				"Administrative practice management"
+			]
+		},
+		"custom_training": {
+			"title": "Customized Training",
+			"items": [
+				"Training needs analysis",
+				"Custom path design",
+				"Results monitoring"
+			]
+		},
+		"full_support": {
+			"title": "Full Support",
+			"items": [
+				"Training calendar management",
+				"Teacher coordination",
+				"Advanced reporting"
+			]
+		}
+	},
+	"form": {
+		"name": "Full Name",
+		"name_placeholder": "Enter your name",
+		"company": "Company",
+		"company_placeholder": "Your company name",
+		"email": "Email",
+		"email_placeholder": "Your business email",
+		"phone": "Phone",
+		"phone_placeholder": "Your phone number",
+		"interest": "Area of Interest",
+		"interest_options": {
+			"default": "Select an area of interest",
+			"funds": "Fund Management",
+			"training": "Customized Training",
+			"consulting": "Consulting",
+			"other": "Other"
+		},
+		"message": "Message",
+		"message_placeholder": "Describe your training needs...",
+		"required_fields": "Required fields",
+		"submit": "Send Request",
+		"submitting": "Sending...",
+		"success_title": "Message Sent!",
+		"success_message": "Thank you for contacting us! We'll get back to you soon.",
+		"error_title": "Error",
+		"error_message": "An error occurred while sending. Please try again later or contact us directly.",
+		"click_anywhere_close": "Click anywhere to close"
+	},
+	"testimonials": {
+		"title": "Our Success Stories",
+		"description": "Discover what our clients say about us",
+		"items": [
+			{
+				"quote": "YM Formation has transformed the way we manage corporate training. Professional and efficient.",
+				"author": "Marco Rossi",
+				"role": "HR Director",
+				"company": "Tech Solutions SpA"
+			},
+			{
+				"quote": "Thanks to them, we obtained funding we didn't think was possible. A reliable partner.",
+				"author": "Laura Bianchi",
+				"role": "CEO",
+				"company": "Innovate Srl"
+			},
+			{
+				"quote": "Competence, professionalism, and concrete results. I highly recommend their services.",
+				"author": "Giuseppe Verdi",
+				"role": "Training Manager",
+				"company": "Future Group"
+			}
+		]
+	},
+	"advantages": {
+		"title": "Our Benefits",
+		"description": "Discover why more companies choose YM Formation as their training partner",
+		"items": [
+			{
+				"title": "Consolidated Expertise",
+				"description": "Team of experts with over 15 years of experience in corporate training"
+			},
+			{
+				"title": "Complete Management",
+				"description": "A single point of contact for all training aspects, from fund research to delivery"
+			},
+			{
+				"title": "Maximum Flexibility",
+				"description": "Customized solutions based on your company's specific needs"
+			}
+		]
+	},
+	"cta": {
+		"title": "Ready to Transform Training in Your Company?",
+		"description": "Contact us today for a free consultation and discover how we can help you maximize training funds",
+		"primary_button": "Request a Consultation",
+		"secondary_button": "Download Brochure"
+	},
+	"footer": {
+		"company_description": "Leader in fund management and corporate training delivery",
+		"services": {
+			"title": "Services",
+			"items": [
+				"Fund Management",
+				"Customized Training",
+				"Consulting",
+				"Administrative Support"
+			]
+		},
+		"useful_links": {
+			"title": "Useful Links",
+			"items": ["About Us", "Contact", "Privacy Policy", "Terms and Conditions"]
+		},
+		"copyright": "© 2024 YM Formation. All rights reserved."
+	}
+}

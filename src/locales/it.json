@@ -1,0 +1,187 @@
+{
+	"header": {
+		"menu_services": "Servizi",
+		"menu_process": "Come Lavoriamo",
+		"menu_advantages": "Vantaggi",
+		"menu_contact": "Contatti",
+		"cta_consultation": "Richiedi Consulenza"
+	},
+	"hero": {
+		"title": "Trasforma il Potenziale della Tua Azienda",
+		"description": "Ottimizza l'accesso ai fondi per la formazione professionale con un partner esperto che gestisce ogni aspetto: dalla selezione dei finanziamenti all'erogazione dei corsi.",
+		"cta_primary": "Scopri i Nostri Servizi",
+		"cta_secondary": "Richiedi una Demo"
+	},
+	"stats": {
+		"success_rate": {
+			"value": "90%",
+			"label": "Tasso di Successo nell'Ottenimento Fondi"
+		},
+		"companies": {
+			"value": "500+",
+			"label": "Aziende Supportate"
+		},
+		"funds": {
+			"value": "€10M+",
+			"label": "Fondi Ottenuti per i Clienti"
+		},
+		"experience": {
+			"value": "15+",
+			"label": "Anni di Esperienza"
+		}
+	},
+	"process": {
+		"title": "Come Lavoriamo",
+		"description": "Un processo strutturato per garantire il massimo risultato nella gestione dei fondi e nell'erogazione della formazione",
+		"steps": [
+			{
+				"title": "Analisi Iniziale",
+				"description": "Valutazione gratuita delle opportunità di finanziamento disponibili"
+			},
+			{
+				"title": "Strategia Formativa",
+				"description": "Definizione del piano formativo personalizzato"
+			},
+			{
+				"title": "Gestione Completa",
+				"description": "Coordinamento di tutti gli aspetti amministrativi e operativi"
+			},
+			{
+				"title": "Monitoraggio Continuo",
+				"description": "Tracking dei risultati e ottimizzazione costante"
+			}
+		]
+	},
+	"advantages": {
+		"title": "I Nostri Vantaggi",
+		"description": "Scopri perché sempre più aziende scelgono YM Formation come partner per la formazione",
+		"items": [
+			{
+				"title": "Esperienza Consolidata",
+				"description": "Team di esperti con oltre 15 anni di esperienza nella formazione aziendale"
+			},
+			{
+				"title": "Gestione Completa",
+				"description": "Un unico punto di contatto per tutti gli aspetti formativi, dalla ricerca fondi all'erogazione"
+			},
+			{
+				"title": "Massima Flessibilità",
+				"description": "Soluzioni personalizzate in base alle specifiche esigenze della tua azienda"
+			}
+		]
+	},
+	"services": {
+		"title": "I Nostri Servizi",
+		"description": "Un approccio completo alla formazione aziendale, dalla gestione dei fondi all'implementazione dei programmi formativi",
+		"fund_management": {
+			"title": "Gestione Fondi",
+			"items": [
+				"Analisi delle opportunità di finanziamento",
+				"Preparazione documentazione",
+				"Gestione pratiche amministrative"
+			]
+		},
+		"custom_training": {
+			"title": "Formazione Personalizzata",
+			"items": [
+				"Analisi dei fabbisogni formativi",
+				"Progettazione percorsi su misura",
+				"Monitoraggio risultati"
+			]
+		},
+		"full_support": {
+			"title": "Supporto Completo",
+			"items": [
+				"Gestione calendario formativo",
+				"Coordinamento docenti",
+				"Reportistica avanzata"
+			]
+		}
+	},
+	"cta": {
+		"title": "Pronto a Trasformare la Formazione nella Tua Azienda?",
+		"description": "Contattaci oggi per una consulenza gratuita e scopri come possiamo aiutarti a massimizzare i fondi per la formazione",
+		"primary_button": "Richiedi una Consulenza",
+		"secondary_button": "Scarica la Brochure"
+	},
+	"form": {
+		"name": "Nome e Cognome",
+		"name_placeholder": "Inserisci il tuo nome",
+		"company": "Azienda",
+		"company_placeholder": "Nome della tua azienda",
+		"email": "Email",
+		"email_placeholder": "La tua email aziendale",
+		"phone": "Telefono",
+		"phone_placeholder": "Il tuo numero di telefono",
+		"interest": "Area di Interesse",
+		"interest_options": {
+			"default": "Seleziona un'area di interesse",
+			"funds": "Gestione Fondi",
+			"training": "Formazione Personalizzata",
+			"consulting": "Consulenza",
+			"other": "Altro"
+		},
+		"message": "Messaggio",
+		"message_placeholder": "Descrivi le tue esigenze formative...",
+		"required_fields": "Campi obbligatori",
+		"submit": "Invia Richiesta",
+		"submitting": "Invio in corso...",
+		"success_title": "Messaggio Inviato!",
+		"success_message": "Grazie per averci contattato! Ti risponderemo al più presto.",
+		"error_title": "Errore",
+		"error_message": "Si è verificato un errore durante l'invio. Riprova più tardi o contattaci direttamente.",
+		"click_anywhere_close": "Clicca in qualsiasi punto per chiudere"
+	},
+	"testimonials": {
+		"title": "Le Nostre Storie di Successo",
+		"description": "Scopri cosa dicono i nostri clienti",
+		"items": [
+			{
+				"quote": "YM Formation ha trasformato il modo in cui gestiamo la formazione aziendale. Professionali ed efficienti.",
+				"author": "Marco Rossi",
+				"role": "Direttore HR",
+				"company": "Tech Solutions SpA"
+			},
+			{
+				"quote": "Grazie a loro abbiamo ottenuto finanziamenti che non pensavamo fossero possibili. Un partner affidabile.",
+				"author": "Laura Bianchi",
+				"role": "CEO",
+				"company": "Innovate Srl"
+			},
+			{
+				"quote": "Competenza, professionalità e risultati concreti. Raccomando vivamente i loro servizi.",
+				"author": "Giuseppe Verdi",
+				"role": "Training Manager",
+				"company": "Future Group"
+			}
+		]
+	},
+	"footer": {
+		"company_description": "Leader nella gestione dei fondi e nell'erogazione della formazione aziendale",
+		"services": {
+			"title": "Servizi",
+			"items": [
+				"Gestione Fondi",
+				"Formazione Personalizzata",
+				"Consulenza",
+				"Supporto Amministrativo"
+			]
+		},
+		"useful_links": {
+			"title": "Link Utili",
+			"items": [
+				"Chi Siamo",
+				"Contatti",
+				"Privacy Policy",
+				"Termini e Condizioni"
+			]
+		},
+		"contact": {
+			"title": "Contatti",
+			"email": "info@ymformation.com",
+			"phone": "+39 02 1234567",
+			"address": "Via Roma 123, Milano"
+		},
+		"copyright": "© 2024 YM Formation. Tutti i diritti riservati."
+	}
+}
