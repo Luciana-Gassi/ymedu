@@ -196,6 +196,12 @@
 			"title": "Useful Links",
 			"items": ["About Us", "Contact", "Privacy Policy", "Terms and Conditions"]
 		},
+		"contact": {
+			"title": "Contact",
+			"email": "info@ymformation.com",
+			"phone": "+39 02 1234567",
+			"address": "Via Roma 123, Milan"
+		},
 		"copyright": "© 2024 YM Formation. All rights reserved."
 	}
 }
