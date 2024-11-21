@@ -28,33 +28,34 @@
 		"experience": {
 			"value": "15+",
 			"label": "Anni di Esperienza"
-		},
-		"why_choose_us": {
-			"title": "Perché Sceglierci",
-			"cards": [
-				{
-					"title": "-70%",
-					"description": "Riduzione del tempo amministrativo",
-					"icon": "clock"
-				},
-				{
-					"title": "90%",
-					"description": "Tasso di successo nell'ottenimento dei finanziamenti",
-					"icon": "check"
-				},
-				{
-					"title": "Network Certificato",
-					"description": "Formatori altamente qualificati e certificati",
-					"icon": "network"
-				},
-				{
-					"title": "24/7",
-					"description": "Supporto personalizzato continuo",
-					"icon": "support"
-				}
-			]
 		}
 	},
+	"why_choose_us": {
+		"title": "Perché Sceglierci",
+		"cards": [
+			{
+				"title": "-70%",
+				"description": "Riduzione del tempo amministrativo",
+				"icon": "clock"
+			},
+			{
+				"title": "90%",
+				"description": "Tasso di successo nell'ottenimento dei finanziamenti",
+				"icon": "check"
+			},
+			{
+				"title": "Network Certificato",
+				"description": "Formatori altamente qualificati e certificati",
+				"icon": "network"
+			},
+			{
+				"title": "24/7",
+				"description": "Supporto personalizzato continuo",
+				"icon": "support"
+			}
+		]
+	},
+
 	"process": {
 		"title": "Come Lavoriamo",
 		"description": "Un processo strutturato per garantire il massimo risultato nella gestione dei fondi e nell'erogazione della formazione",

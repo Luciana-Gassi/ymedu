@@ -28,32 +28,32 @@
 		"experience": {
 			"value": "15+",
 			"label": "Years of Experience"
-		},
-		"why_choose_us": {
-			"title": "Why Choose Us",
-			"cards": [
-				{
-					"title": "-70%",
-					"description": "Reduction in administrative time",
-					"icon": "clock"
-				},
-				{
-					"title": "90%",
-					"description": "Success rate in obtaining funding",
-					"icon": "check"
-				},
-				{
-					"title": "Certified Network",
-					"description": "Highly qualified and certified trainers",
-					"icon": "network"
-				},
-				{
-					"title": "24/7",
-					"description": "Continuous personalized support",
-					"icon": "support"
-				}
-			]
 		}
+	},
+	"why_choose_us": {
+		"title": "Why Choose Us",
+		"cards": [
+			{
+				"title": "-70%",
+				"description": "Reduction in administrative time",
+				"icon": "clock"
+			},
+			{
+				"title": "90%",
+				"description": "Success rate in obtaining funding",
+				"icon": "check"
+			},
+			{
+				"title": "Certified Network",
+				"description": "Highly qualified and certified trainers",
+				"icon": "network"
+			},
+			{
+				"title": "24/7",
+				"description": "Continuous personalized support",
+				"icon": "support"
+			}
+		]
 	},
 	"process": {
 		"title": "How We Work",
