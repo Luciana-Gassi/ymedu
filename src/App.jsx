@@ -4,7 +4,7 @@ import YMForm from "./pages/YMForm";
 
 function App() {
 	return (
-		<HashRouter>
+		<HashRouter basename="/ymedu">
 			<Routes>
 				<Route path="/" element={<YMForm />} />
 			</Routes>
