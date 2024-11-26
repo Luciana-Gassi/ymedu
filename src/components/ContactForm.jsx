@@ -96,7 +96,7 @@ const ContactForm = () => {
 		message: "",
 	});
 
-	// Aggiungi qui il nuovo state
+	// il nuovo state
 	const [isSubmitting, setIsSubmitting] = useState(false);
 	const [errors, setErrors] = useState({});
 	const [touched, setTouched] = useState({});
@@ -171,7 +171,7 @@ const ContactForm = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 
-		// Usiamo validateForm invece del controllo base
+		// validateForm
 		const isValid = validateForm();
 		if (!isValid) {
 			setTouched({
