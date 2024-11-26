@@ -2,7 +2,7 @@
 	"name": "ymform",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://luciana-gassi.github.io/ymedu/",
+	"homepage": ".",
 	"dependencies": {
 		"@material-tailwind/react": "^2.1.10",
 		"@testing-library/jest-dom": "^5.17.0",

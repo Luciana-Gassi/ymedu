@@ -63,7 +63,7 @@ function YMForm() {
 								}}
 							>
 								<img
-									src="/ymedu/images/logo-YMesh-rb.png"
+									src="images/logo-YMesh-rb.png"
 									alt="YM Formazione Logo"
 									className="h-16"
 								/>
@@ -108,7 +108,7 @@ function YMForm() {
 										}`}
 								>
 									<img
-										src="/ymedu/images/it-flag.png"
+										src="images/it-flag.png"
 										alt="Italiano"
 										className={`w-5 h-5 transition-opacity duration-200 
                       ${
@@ -130,7 +130,7 @@ function YMForm() {
 										}`}
 								>
 									<img
-										src="/ymedu/images/en-flag.png"
+										src="images/en-flag.png"
 										alt="English"
 										className={`w-5 h-5 transition-opacity duration-200
                       ${
@@ -644,7 +644,7 @@ function YMForm() {
 								viewport={{ once: true }}
 							/>
 							<motion.img
-								src="/ymedu/images/team-meeting.jpg"
+								src="images/team-meeting.jpg"
 								alt="Team al lavoro"
 								className="rounded-lg shadow-xl relative z-10 w-full h-full object-cover"
 								initial={{ opacity: 0, scale: 0.95 }}
@@ -765,7 +765,7 @@ function YMForm() {
 					<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 						<div>
 							<img
-								src="/ymedu/images/ym-logoWH.svg"
+								src="images/ym-logoWH.svg"
 								alt="YM Formation"
 								className="h-12 mb-4"
 							/>
