@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+    <g fill="#ffffff">
+        <!-- Y da Controller Four -->
+        <g transform="translate(100,220) scale(0.55,0.71)">
+            <path transform="scale(1,-1) translate(0,-770)"
+                d="M177 436c0 -65 35 -99 99 -99h423c64 0 99 34 99 99v231c0 22 11 33 33 33h79c22 0 33 -11 33 -33v-251c0 -131 -74 -207 -206 -207h-177v-176c0 -22 -11 -33 -33 -33h-79c-22 0 -33 11 -33 33v176h-177c-132 0 -205 76 -205 207v251c0 22 11 33 32 33h80c21 0 32 -11 32 -33v-231z"/>
+        </g>
+
+        <!-- M da Orbitron Bold -->
+        <g transform="translate(600,220) scale(0.6,0.68)">
+            <path transform="scale(1,-1) translate(0,-800)"
+                d="M56 0v720h145l261 -311l260 311h146v-720h-133v528l-273 -325l-274 324v-527h-132z"/>
+        </g>
+    </g>
+</svg>
